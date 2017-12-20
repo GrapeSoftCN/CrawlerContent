@@ -72,7 +72,7 @@ public class Content {
 	public String SetInfo(String id,String info) {
 		String result = rMsg.netMSG(100, "无效参数A:" + info);
 		info = codec.DecodeFastJSON(info);
-		System.out.println(info);
+//		System.out.println(info);
 		JSONObject obj = JSONObject.toJSON(info);
 		if (obj != null && obj.size() > 0) {
 				filterJSON(obj);
