@@ -2,9 +2,9 @@ package interfaceApplication;
 
 import org.json.simple.JSONObject;
 
-import security.codec;
-import string.StringHelper;
-import time.TimeHelper;
+import unit.ExcelUtils;
+
+
 
 public class aa {
     public static void main(String[] args) {
@@ -12,4 +12,8 @@ public class aa {
     	System.out.println(object.substring(17));
        
     }
+    public void text() {
+    	ExcelUtils.jiaoben1();
+    }
+    
 }
